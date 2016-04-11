@@ -1,0 +1,48 @@
+#container {
+	width:1000px;
+	height: 1000px;
+	padding: 200px;
+
+}
+
+
+#container {
+	width:800px;
+	height: 800px;
+
+}
+
+#long {
+
+	width:100px;
+	height:400px;
+	float:left;
+	background-color: red;
+	outline: white solid thick;
+}
+
+#main {
+
+	width:600px;
+	height:400px;
+	float:left;
+	background-color: red;
+}
+
+#wide {
+
+	width:600px;
+	height:100px;
+	outline: white solid thick;
+	float:left;
+	background-color: red;
+}
+
+#square {
+
+	width:300px;
+	height:300px;
+	outline: white solid thick;
+	float:left;
+	background-color: red;
+}

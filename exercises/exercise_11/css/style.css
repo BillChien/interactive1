@@ -1,0 +1,52 @@
+body {
+        background: black;
+}
+
+#container {
+        margin-top: 200px;
+        width: 100%;
+        height:4000px;
+        margin:auto;
+}
+
+
+@font-face {
+        font-family: 'din';
+        src: url("din.otf");
+}
+
+@font-face {
+        font-family: 'didot';
+        src: url("didot.otf");
+}
+
+@font-face {
+        font-family: 'brute';
+        src: url("brute.otf");
+}
+
+#main {
+        width:100%;
+        font-family: brute;
+        font-size: 200px;
+        text-align: center;
+        color:white;
+        line-height: 1em;
+}
+
+#main2 {
+        width:100%;
+        font-family: din;
+        font-size: 50px;
+        text-align: center;
+        color:white;
+}
+
+#main3 {
+        width:100%;
+        font-family: didot;
+        font-size: 200px;
+        text-align: center;
+        color:white;
+        line-height: 0.9em;
+}

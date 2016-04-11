@@ -1,0 +1,67 @@
+#container {
+        width: 960px;
+        margin: 0px auto;
+}
+
+#left-column {
+        width: 700px;
+        float:left;
+        background: blue;
+        color: yellow;
+        font-size: 10px;
+}
+
+#right-column {
+        width: 260px;
+        float: left;
+        background: orange;
+}
+
+@media screen and (max-width:2000px) {
+        #container {
+                width:100%;
+        }
+
+        #left-column {
+                width:70%;
+        }
+
+        #right-column{
+                width:30%;
+        }
+
+        img {
+                width:100%;
+        }
+}
+
+/*phone, when you drag your window to smart phone window size, it will change layout responsively*/
+
+@media screen and (max-width:640px) {
+        #container {
+                width:100%;
+        }
+
+        #left-column {
+                width:100%;
+                color: green;
+                font-size: 400px;
+
+        }
+
+        #right-column{
+                width:100%;
+        }
+
+        img {
+                width:100%;
+        }
+}
+
+/*minimal width=320px, meaning your window can only be dragged narrow to 320px*/
+
+@media screen and (max-width:320px) {
+        #container {
+                width:320px;
+        }
+}

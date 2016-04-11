@@ -1,0 +1,27 @@
+#rounded_square {
+	height:200px;
+	width:200px;
+	border-radius:  10px;
+	background-color:green;
+	float:left;
+}
+
+#rounded_rectangle {
+	height:200px;
+	width:400px;
+	border-radius: 10px;
+	background-color:yellow;
+	float:left;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+	position:absolute;
+	top:40px;
+	left:40px;
+}
+	

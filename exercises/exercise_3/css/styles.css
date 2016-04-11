@@ -1,0 +1,96 @@
+a:link {
+	color: #50351a;
+}
+
+a:visited {
+	color: orange;
+
+}
+
+a:hover{
+	color:yellow;
+}
+
+a:active {
+    color: red;
+}
+
+a {text-decoration: none;
+
+}
+
+#name {
+	background-color: yellow;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: gray;
+	font-size: 60px;
+	width: 200px;
+	height: 100px;
+	margin: auto;
+	padding: 15px;
+
+}
+
+#line1 {
+	border: 1px dashed;
+}
+
+#line2 {
+	color:orange;
+	font-size:60px;
+	border: 1px solid;
+}
+
+#line3 {
+	color:black;
+}
+
+.shape {
+
+	background-color: black;
+	font-family: sans-serif;
+	color: yellow;
+	font-size:60px;
+	font-weight: bold;
+	width: 250px;
+	height: 100px;
+	margin: 30px;
+	padding: 15px;
+
+}
+
+#container {
+	margin: auto;
+	width: auto;
+	height: auto;
+	padding: 15px
+}
+
+#yellow {
+	width: auto;
+	height: 200px;
+	background-color: yellow;
+	float: top;
+}
+
+#red {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	float: left;
+}
+
+#blue {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	float: left;
+}
+
+#green {
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	float: left;
+}

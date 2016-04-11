@@ -1,0 +1,43 @@
+#container {
+	width:1000px;
+	margin:auto;
+
+}
+
+#wide {
+
+	width:1000px;
+	height:100px;
+	float:left;
+	background-color: red;
+	border-bottom: white solid 10px;
+
+}
+
+#wide2 {
+
+	width:1000px;
+	height:40px;
+	float:left;
+	border-bottom: white solid 10px;
+	background-color: red;
+}
+
+#long {
+
+	width:326.6px;
+	height:800px;
+	background-color: red;
+	border-bottom: white solid 10px;
+	border-right: white solid 10px;
+	float:left;
+}
+
+#long2 {
+
+	width:326.6px;
+	height:800px;
+	background-color: red;
+	border-bottom: white solid 10px;
+	float:left;
+}

@@ -1,0 +1,12 @@
+body {
+	background-color: #f2f2f2;
+	overflow-y:hidden;
+	overflow-x:scroll;
+}
+
+.baby_questions {
+	margin:10px;
+	border:none;
+	width:31%;
+	height:300px;
+}

@@ -1,0 +1,46 @@
+#container {
+
+	width:1000px;
+	margin:20px;
+}
+
+
+#banner {
+
+	width:1000px;
+	height:250px;
+	float:left;
+	background-color: red;
+	border-top: white solid 60px;
+
+}
+
+#big {
+
+	width:740px;
+	height:600px;
+	float:left;
+	background-color: red;
+	border-top: white solid 100px;
+	border-right: white solid 10px;
+}
+
+#side {
+
+	width:250px;
+	height:300px;
+	float:left;
+	background-color: red;
+	border-top: white solid 100px;
+	
+}
+
+#bottom {
+
+	width:740px;
+	height:30px;
+	float:left;
+	background-color: red;
+	border-top: white solid 10px;
+
+}
