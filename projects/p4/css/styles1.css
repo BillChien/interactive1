@@ -1,0 +1,48 @@
+body {
+  background-color: black
+}
+
+#table1 {
+        width:500px;
+        margin:auto;
+        margin-top: 150px;
+        text-align: center;
+        font-family: courier;
+        color:white;
+        vertical-align: middle;
+        font-size: 100px;
+        line-height: 1em;
+        -webkit-animation-name: fadeIn;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-name: scale;
+        -webkit-animation-duration: 5s;
+        -webkit-animation-timing-function: ease; /* ease is the default */
+        -webkit-animation-delay: 0s;             /* 0 is the default */
+        -webkit-animation-iteration-count: 1;    /* 1 is the default */
+        -webkit-animation-direction: normal;  /* normal is the default */
+        animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes scale {
+   from { transform: scale(0.25); }
+   to   { transform: scale(5.0); }
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
+/*
+#table1:hover{
+        -webkit-animation-name: example;
+        -webkit-animation-duration: 3s;
+        -webkit-animation-timing-function: ease;
+        -webkit-animation-delay: 0s;
+        -webkit-animation-iteration-count: 1;
+        -webkit-animation-direction: normal;
+        animation-iteration-count: infinite;
+}
+*/
