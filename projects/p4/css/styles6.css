@@ -1,14 +1,24 @@
-body {
-  background-color: black;
+@-webkit-keyframes blacktowhite {
+  0%   {background:black;}
+  100%   {background:white;}
 }
 
+body {
+  -webkit-animation-name: blacktowhite;
+  -webkit-animation-duration: 0.5s;
+}
+
+@font-face {
+  font-family:'helveticaneue';
+  src: url("fonts/HelveticaNeueLTPro-Roman.otf");
+}
 
 #button {
   width:100px;
   height:100px;
   margin:auto;
   margin-top: 350px;
-  background-color: black;
+  background-color: yellow;
   opacity:0;
   z-index: 2;
   position:relative;
@@ -23,15 +33,15 @@ body {
   margin:auto;
   margin-top: -300px;
   text-align: center;
-  font-family: courier;
-  color:white;
+  font-family: helveticaneue;
+  color:black;
   vertical-align: middle;
   font-size: 100px;
   line-height: 1em;
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 1s;
   -webkit-animation-name: scale;
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 3.5s;
   -webkit-animation-timing-function: ease; /* ease is the default */
   -webkit-animation-delay: 0s;             /* 0 is the default */
   -webkit-animation-iteration-count: 1;    /* 1 is the default */

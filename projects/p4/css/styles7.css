@@ -1,14 +1,25 @@
-body {
-  background-color: black;
+@-webkit-keyframes whitetoblack {
+  0%   {background:white;}
+  100%   {background:black;}
 }
 
+body {
+  background-color: black;
+  -webkit-animation-name: whitetoblack;
+  -webkit-animation-duration: 0.5s;
+}
+
+@font-face {
+  font-family:'gotham';
+  src: url("fonts/GothamBook.otf");
+}
 
 #button {
   width:100px;
   height:100px;
   margin:auto;
   margin-top: 350px;
-  background-color: black;
+  background-color: yellow;
   opacity:0;
   z-index: 2;
   position:relative;
@@ -23,7 +34,7 @@ body {
   margin:auto;
   margin-top: -300px;
   text-align: center;
-  font-family: courier;
+  font-family: gotham;
   color:white;
   vertical-align: middle;
   font-size: 100px;
@@ -31,7 +42,7 @@ body {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 1s;
   -webkit-animation-name: scale;
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 3.2s;
   -webkit-animation-timing-function: ease; /* ease is the default */
   -webkit-animation-delay: 0s;             /* 0 is the default */
   -webkit-animation-iteration-count: 1;    /* 1 is the default */
@@ -48,17 +59,3 @@ body {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-
-
-
-/*
-#table1:hover{
-        -webkit-animation-name: example;
-        -webkit-animation-duration: 3s;
-        -webkit-animation-timing-function: ease;
-        -webkit-animation-delay: 0s;
-        -webkit-animation-iteration-count: 1;
-        -webkit-animation-direction: normal;
-        animation-iteration-count: infinite;
-}
-*/

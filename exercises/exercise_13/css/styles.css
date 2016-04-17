@@ -1,0 +1,22 @@
+body {
+background-color: #000000;
+}
+
+h1 {
+font-family: Helvetica, sans-serif;
+
+}
+
+#draggable {
+  border-color: #ffffff;
+
+}
+
+.ui-draggable {
+  position:relative;
+  z-index:0;
+}
+
+img{
+  width:100px;
+}
