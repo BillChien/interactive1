@@ -42,7 +42,7 @@ body {
   -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 1s;
   -webkit-animation-name: scale;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 1.7s;
   -webkit-animation-timing-function: ease; /* ease is the default */
   -webkit-animation-delay: 0s;             /* 0 is the default */
   -webkit-animation-iteration-count: 1;    /* 1 is the default */
